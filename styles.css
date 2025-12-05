@@ -319,6 +319,15 @@ body {
   text-decoration: underline;
 }
 
+.closing-line {
+  padding: 2.5rem 7vw;
+  text-align: center;
+  font-size: 1rem;
+  color: #bfc2ce;
+  opacity: 0.9;
+}
+
+
 /* Footer */
 
 .footer {
