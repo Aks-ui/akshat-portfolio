@@ -81,6 +81,19 @@ body {
   gap: 3rem;
 }
 
+.value-bar {
+  background: rgba(255, 255, 255, 0.03);
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 1.2rem 7vw;
+  text-align: center;
+}
+
+.value-bar p {
+  font-size: 0.95rem;
+  color: #c4c6d2;
+}
+
 .hero-image {
   flex: 1;
   max-width: 420px;
