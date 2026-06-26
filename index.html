@@ -3,289 +3,450 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Akshat Saxena | Product, Pre-Sales & Brand Strategy</title>
+  <title>Akshat Saxena — UX, Research & Product</title>
+  <meta
+    name="description"
+    content="Akshat Saxena — UX, research and product. I turn ambiguous business problems into clear, user-centred, decision-ready solutions across banking, ERP and brand."
+  />
+
+  <!-- Fonts: IBM Plex Sans (headings) + Inter (body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500;600;700&family=Inter:wght@400;500;600&display=swap"
+    rel="stylesheet"
+  />
+
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
   <header class="navbar">
-    <div class="nav-left">
-      <span class="logo">AS</span>
-      <span class="nav-name">Akshat Saxena</span>
+    <div class="container navbar-inner">
+      <div class="nav-left">
+        <span class="logo" aria-hidden="true">AS</span>
+        <span class="nav-name">Akshat Saxena</span>
+      </div>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="#hero">Home</a>
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#case-studies">Case Studies</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
     </div>
-    <nav class="nav-links">
-      <a href="#hero">Home</a>
-      <a href="#about">About</a>
-      <a href="#experience">Experience</a>
-      <a href="#case-studies">Case Studies</a>
-      <a href="#skills">Skills</a>
-      <a href="#contact">Contact</a>
-    </nav>
   </header>
 
-  <!-- HERO -->
-<section id="hero" class="hero">
-  <div class="hero-content">
-    <p class="hero-kicker">Strategy · Product · Operations</p>
-    <h1>Akshat Saxena</h1>
-    <p class="hero-subtitle">
-     I specialise in turning vague, messy business problems into structured,
-decision-ready solutions. My background blends product thinking, brand strategy
-and operational systems like Epicor — meaning I understand both the commercial
-story and the underlying mechanics.
+  <main id="main">
+    <!-- HERO -->
+    <section id="hero" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="hero-kicker">UX · Research · Product</p>
+          <h1>Akshat Saxena</h1>
+          <p class="hero-subtitle">
+            I turn vague, messy business problems into clear, user-centred,
+            decision-ready solutions. I work across the full picture —
+            understanding users, mapping journeys and translating insight into
+            structure that teams can actually act on.
+          </p>
+          <p class="hero-highlight">
+            Recent work spans banking change at BNP Paribas Personal Finance,
+            user-journey mapping in ERP systems, and brand and customer research
+            for Sanofi and Greggs.
+          </p>
+          <div class="hero-cta">
+            <a href="#case-studies" class="btn primary">View case studies</a>
+            <a href="#contact" class="btn secondary">Get in touch</a>
+          </div>
+        </div>
 
-    </p>
-    <p class="hero-highlight">
-      Recent work includes: Sanofi (Lizipaina), Greggs, FMCG strategy, Epicor WIP flows,
-UAT and pre-sales support.
-
-    </p>
-<div class="hero-cta">
-  <a href="#case-studies" class="btn primary">See how I think</a>
-  <a href="#contact" class="btn secondary">Contact</a>
-</div>
-
-  </div>
-
-  <div class="hero-image">
-    <img src="assets/akshat.jpg" alt="Akshat Saxena" /> 
-
-  </div>
-</section>
-
-<section class="value-bar">
-  <p>
-    I’m best used when the problem is unclear, the data is messy, and the team needs
-    someone who can turn noise into structure without slowing everyone down.
-  </p>
-</section>
-
-  <!-- ABOUT -->
- <section id="about" class="section">
-  <div class="section-header">
-    <h2>About</h2>
-    <p>I’m not the person you give tasks to — I’m the person you give problems to.</p>
-    <p>How I think about problems and value.</p>
-  </div>
-  <div class="about-grid">
-    <div class="card">
-      <h3>How I think</h3>
-      <p>
-        I’m most comfortable when the brief is <em>unclear</em>. I like to take a messy
-        situation, strip it down to first principles and rebuild it into a clear problem
-        statement, options and trade-offs. I care about structured thinking more than
-        flashy frameworks.
-      </p>
-    </div>
-    <div class="card">
-      <h3>How I work</h3>
-      <p>
-        I move between analysis, conversation and documentation quickly: talk to people,
-        pull the data that matters, sketch the flows, then turn it into a concise story
-        that decision-makers can act on. I don’t hide behind jargon and I don’t produce
-        slides that go nowhere.
-      </p>
-    </div>
-    <div class="card">
-      <h3>Where I’m useful</h3>
-      <p>
-        Consulting-style roles where there’s real ambiguity: product strategy, PMO,
-        pre-sales or internal projects that need someone to make sense of disconnected
-        inputs, align stakeholders and push things over the line.
-      </p>
-    </div>
-  </div>
-</section>
-
-
-  <!-- EXPERIENCE -->
- <section id="experience" class="section">
-  <div class="section-header">
-    <h2>Experience</h2>
-    <p>Roles where I’ve had to bring structure to unclear problems.</p>
-  </div>
-
-  <div class="timeline">
-
-    <div class="timeline-item card">
-      <div class="timeline-header">
-        <h3>ERP & Operations (Epicor) - Epicor Trainee</h3>
-        <span class="timeline-meta">Manufacturing · London / Remote</span>
+        <div class="hero-image">
+          <img
+            src="assets/akshat.jpg"
+            alt="Portrait of Akshat Saxena"
+            width="420"
+            height="420"
+            decoding="async"
+            fetchpriority="high"
+          />
+        </div>
       </div>
-      <ul class="bullet-list">
-        <li>
-          Mapped the full flow from <em>sales order → MRP → job → WIP → shipment → invoice</em>
-          so the team could see, on one page, how operational steps hit financials.
-        </li>
-        <li>
-          Helped diagnose issues like missing labour costs and confusing WIP behaviour by
-          tracing data through Epicor, identifying where configuration or process broke.
-        </li>
-        <li>
-          Turned scattered tribal knowledge into clear notes and diagrams used by juniors
-          to ramp up faster and make fewer basic mistakes.
-        </li>
-      </ul>
-    </div>
+    </section>
 
-    <div class="timeline-item card">
-      <div class="timeline-header">
-        <h3>Justbaat – Associate Product Manager & UAT Lead</h3>
-        <span class="timeline-meta">Start-up · Remote</span>
+    <section class="value-bar">
+      <div class="container">
+        <p>
+          I'm best used when the problem is unclear, the data is messy, and the
+          team needs someone who can turn noise into structure without slowing
+          everyone down.
+        </p>
       </div>
-      <ul class="bullet-list">
-        <li>
-          Took vague feature ideas and turned them into <strong>concrete test scenarios</strong>,
-          edge cases and acceptance criteria that engineers could actually build against.
-        </li>
-        <li>
-          Logged and prioritised bugs in JIRA by business impact (P0–P3), including clear
-          reproduction steps, recordings and environment details to cut back-and-forth.
-        </li>
-        <li>
-          Acted as a translator between non-technical expectations and engineering reality,
-          pushing for realistic scope, timelines and definitions of “done”.
-        </li>
-      </ul>
-    </div>
+    </section>
 
-    <div class="timeline-item card">
-      <div class="timeline-header">
-        <h3>Brand & Strategy Projects (ESADE & Freelance)</h3>
-        <span class="timeline-meta">Sanofi · Greggs · FMCG</span>
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2>About</h2>
+          <p class="section-lead">
+            I'm not the person you give tasks to — I'm the person you give
+            problems to. Here's how I think about problems and value.
+          </p>
+        </div>
+        <div class="grid about-grid">
+          <article class="card">
+            <h3>How I think</h3>
+            <p>
+              I'm most comfortable when the brief is <em>unclear</em>. I take a
+              messy situation, strip it down to first principles and rebuild it
+              into a clear problem statement, options and trade-offs. I care about
+              structured thinking and real user understanding more than flashy
+              frameworks.
+            </p>
+          </article>
+          <article class="card">
+            <h3>How I work</h3>
+            <p>
+              I move between research, conversation and documentation quickly:
+              talk to users and stakeholders, pull the data that matters, map the
+              flows, then turn it into a concise story that decision-makers can
+              act on. I don't hide behind jargon or produce artefacts that go
+              nowhere.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Where I'm useful</h3>
+            <p>
+              Roles with real ambiguity: UX research and design, product, and
+              change initiatives that need someone to make sense of disconnected
+              inputs, align stakeholders and push things over the line —
+              including in regulated environments like banking.
+            </p>
+          </article>
+        </div>
       </div>
-      <ul class="bullet-list">
-        <li>
-          Led a <strong>brand audit for Sanofi’s Lizipaina</strong>, organising messy market
-          and consumer data into a clear view of where the brand actually plays and where it
-        ’s losing ground.
-        </li>
-        <li>
-          Analysed Greggs’ positioning and customer journeys to understand where the brand
-          over-delivers, where it is invisible and what that means for growth.
-        </li>
-        <li>
-          Built decks that moved from <em>problem → insight → options → recommendation</em>,
-          focusing on what leadership should do next, not just what the numbers say.
-        </li>
-      </ul>
-    </div>
+    </section>
 
-  </div>
-</section>
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <h2>Experience</h2>
+          <p class="section-lead">
+            Roles where I've brought structure and user understanding to unclear
+            problems.
+          </p>
+        </div>
 
-  <!-- CASE STUDIES -->
- <section id="case-studies" class="section">
-  <div class="section-header">
-    <h2>Case Studies</h2>
-    <p>Short examples of how I structure problems and recommendations.</p>
-  </div>
+        <div class="timeline">
+          <article class="card timeline-item">
+            <div class="timeline-header">
+              <h3>Project Management Consultant</h3>
+              <p class="timeline-meta">
+                BNP Paribas Personal Finance · Solihull, UK (on-site)
+              </p>
+            </div>
+            <ul class="bullet-list">
+              <li>
+                Gathered business and technical requirements from stakeholders
+                across banking and technology initiatives.
+              </li>
+              <li>
+                Produced and maintained project documentation — BRDs, process
+                flows, governance artefacts and approval documentation.
+              </li>
+              <li>
+                Coordinated across business, security, architecture and delivery
+                teams to support execution and governance.
+              </li>
+              <li>
+                Ran impact assessments and dependency analysis, and tracked
+                risks, assumptions, issues and dependencies (RAID) with regular
+                stakeholder updates.
+              </li>
+              <li>
+                Facilitated requirement-clarification sessions to support
+                business change initiatives.
+              </li>
+            </ul>
+          </article>
 
-  <div class="card-grid">
+          <article class="card timeline-item">
+            <div class="timeline-header">
+              <h3>Junior ERP Analyst</h3>
+              <p class="timeline-meta">
+                Arvy Consultancy UK Ltd · London, UK (on-site)
+              </p>
+            </div>
+            <ul class="bullet-list">
+              <li>
+                Worked directly with manufacturing and operational users to
+                understand processes, system challenges and day-to-day workflow
+                needs.
+              </li>
+              <li>
+                Ran <strong>discovery sessions and requirement-gathering
+                workshops</strong> to identify pain points and opportunities for
+                improvement.
+              </li>
+              <li>
+                <strong>Mapped end-to-end user journeys</strong> across inventory,
+                production planning, operations and reporting workflows.
+              </li>
+              <li>
+                Created process diagrams, workflow maps and user-focused
+                documentation to improve system understanding and adoption.
+              </li>
+              <li>
+                Designed more intuitive operational workflows within the Epicor
+                ERP environment, plus reporting and data visualisations that made
+                information more accessible to business users.
+              </li>
+            </ul>
+          </article>
 
-    <article class="card">
-      <h3>Sanofi – Lizipaina Brand Audit</h3>
-      <p class="card-tag">Brand Strategy · FMCG</p>
-      <p><strong>The situation:</strong> Legacy throat-care brand in a crowded shelf, with
-      unclear differentiation and inconsistent in-store execution.</p>
-      <p><strong>What I did:</strong> Structured a full-funnel audit across competition,
-      consumer perceptions, retail presence and messaging, using a simple but rigorous
-      framework.</p>
-      <p><strong>Outcome:</strong> Clear strategic routes (defend, stretch, reposition) with
-      concrete implications for pack, messaging and activation, rather than a generic “brand health” report.</p>
-    </article>
+          <article class="card timeline-item">
+            <div class="timeline-header">
+              <h3>Associate Product Manager &amp; UAT</h3>
+              <p class="timeline-meta">Justbaat · Remote</p>
+            </div>
+            <ul class="bullet-list">
+              <li>
+                Turned vague feature ideas into concrete user scenarios, edge
+                cases and acceptance criteria that engineers could build against.
+              </li>
+              <li>
+                Validated releases through structured user-acceptance testing,
+                logging and prioritising issues (P0–P3) with clear reproduction
+                steps and recordings.
+              </li>
+              <li>
+                Acted as a translator between user expectations and engineering
+                reality, pushing for realistic scope and a shared definition of
+                "done".
+              </li>
+            </ul>
+          </article>
 
-    <article class="card">
-      <h3>Greggs – Brand & Customer Journey</h3>
-      <p class="card-tag">Retail · Positioning</p>
-      <p><strong>The situation:</strong> A loved high-street brand with strong habits but
-      fragmented understanding of how customers actually experience it across touchpoints.</p>
-      <p><strong>What I did:</strong> Mapped journeys across in-store, app and everyday
-      behaviours, then linked those to perceptions of value, convenience and comfort.</p>
-      <p><strong>Outcome:</strong> Identified where the brand wins by default and where it
-      is effectively invisible, giving a clearer view of where to invest for long-term brand
-      equity versus short-term promotions.</p>
-    </article>
-
-    <article class="card">
-      <h3>Epicor – Making the System Understandable</h3>
-      <p class="card-tag">ERP · Systems Thinking</p>
-      <p><strong>The situation:</strong> People were using Epicor every day, but very few
-      could explain how actions in the system flowed through to WIP, inventory and margin.</p>
-      <p><strong>What I did:</strong> Documented the end-to-end flow from sales order to
-      invoice, highlighting where materials, labour and costs actually move.</p>
-      <p><strong>Outcome:</strong> A simple set of flows and notes used by juniors and
-      non-finance stakeholders to understand the impact of their choices in the system.</p>
-    </article>
-
-  </div>
-</section>
-
-  <!-- SKILLS -->
-  <section id="skills" class="section">
-    <div class="section-header">
-      <h2>Skills</h2>
-      <p>The mix I bring to a team.</p>
-    </div>
-    <div class="skills-grid">
-      <div class="card">
-        <h3>Product & Pre-Sales</h3>
-        <ul class="pill-list">
-          <li>Requirements breakdown</li>
-          <li>UAT & test design</li>
-          <li>Storytelling & demos</li>
-          <li>Stakeholder alignment</li>
-        </ul>
+          <article class="card timeline-item">
+            <div class="timeline-header">
+              <h3>Brand &amp; Strategy Research Projects</h3>
+              <p class="timeline-meta">ESADE &amp; Freelance · Sanofi · Greggs · FMCG</p>
+            </div>
+            <ul class="bullet-list">
+              <li>
+                Led a brand and market research audit for Sanofi's Lizipaina,
+                organising messy consumer and market data into a clear view of
+                where the brand plays and where it loses ground.
+              </li>
+              <li>
+                Analysed Greggs' positioning and customer journeys to understand
+                where the brand over-delivers, where it's invisible and what that
+                means for growth.
+              </li>
+              <li>
+                Built narratives that moved from <em>problem → insight → options →
+                recommendation</em>, focused on what leadership should do next.
+              </li>
+            </ul>
+          </article>
+        </div>
       </div>
-      <div class="card">
-        <h3>Strategy & Brand</h3>
-        <ul class="pill-list">
-          <li>Brand audits</li>
-          <li>Positioning & messaging</li>
-          <li>Customer journeys</li>
-          <li>Decks & narratives</li>
-        </ul>
-      </div>
-      <div class="card">
-        <h3>Technical & Tools</h3>
-        <ul class="pill-list">
-          <li>Epicor (MRP, BOM/MOM, WIP)</li>
-          <li>JIRA & test management</li>
-          <li>Spreadsheet analysis</li>
-          <li>Notion & documentation</li>
-        </ul>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- CONTACT -->
-  <section id="contact" class="section">
-    <div class="section-header">
-      <h2>Contact</h2>
-      <p>If you think I can help, reach out.</p>
-    </div>
-    <div class="contact-card card">
-      <p>
-        I’m based in London and open to roles in product, pre-sales, PMO and
-        consulting where there’s real responsibility and real problems to solve.
-      </p>
-      <p class="contact-detail">
-        Email: <a href="mailto:YOUR.EMAIL.HERE">akshat030600@gmail.com</a>
-      </p>
-      <p class="contact-detail">
-        LinkedIn: <a href="https://www.linkedin.com/in/YOUR-LINKEDIN" target="_blank">https://www.linkedin.com/in/akshat--saxena/</a>
-      </p>
-    </div>
-  </section>
-  
-<section class="closing-line">
-  <p>
-    I help teams get to clarity faster — whether it’s a product problem, a process problem,
-    or a business problem with no clean owner.
-  </p>
-</section>
+    <!-- CASE STUDIES -->
+    <section id="case-studies" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Case Studies</h2>
+          <p class="section-lead">
+            How I structure problems, involve users and land clear
+            recommendations.
+          </p>
+        </div>
+
+        <div class="grid card-grid">
+          <article class="card case-study">
+            <h3>BNP Paribas — Banking Change &amp; Governance</h3>
+            <p class="card-tag">Banking · Requirements · Governance</p>
+            <dl class="case-meta">
+              <dt>My role</dt>
+              <dd>Project Management Consultant</dd>
+              <dt>Problem</dt>
+              <dd>
+                Complex banking and technology change initiatives needed
+                structured requirements and clear governance across many
+                stakeholders.
+              </dd>
+              <dt>Process</dt>
+              <dd>
+                Facilitated requirement-clarification sessions, captured needs as
+                BRDs and process flows, ran impact and dependency analysis, and
+                tracked RAID with regular stakeholder updates.
+              </dd>
+            </dl>
+            <p class="outcome">
+              <span class="outcome-label">Outcome</span>
+              Aligned business, security and delivery teams around complete,
+              compliant documentation that kept change initiatives moving.
+            </p>
+          </article>
+
+          <article class="card case-study">
+            <h3>Epicor — Making the System Understandable</h3>
+            <p class="card-tag">ERP · User Journeys · Workflow Design</p>
+            <dl class="case-meta">
+              <dt>My role</dt>
+              <dd>ERP Analyst / UX-minded researcher</dd>
+              <dt>Problem</dt>
+              <dd>
+                People used Epicor daily, but few could see how their actions
+                flowed through inventory, production and reporting — causing
+                avoidable errors and low adoption.
+              </dd>
+              <dt>Process</dt>
+              <dd>
+                Ran discovery sessions with operational users, mapped end-to-end
+                user journeys, and turned them into process diagrams and
+                user-focused documentation.
+              </dd>
+            </dl>
+            <p class="outcome">
+              <span class="outcome-label">Outcome</span>
+              More intuitive workflows and shared diagrams that helped non-finance
+              users understand the impact of their choices and adopt the system
+              with confidence.
+            </p>
+          </article>
+
+          <article class="card case-study">
+            <h3>Sanofi Lizipaina — Brand &amp; Consumer Research</h3>
+            <p class="card-tag">Research · Brand · FMCG</p>
+            <dl class="case-meta">
+              <dt>My role</dt>
+              <dd>Brand &amp; Research Lead</dd>
+              <dt>Problem</dt>
+              <dd>
+                A legacy throat-care brand in a crowded category, with unclear
+                differentiation and inconsistent in-store execution.
+              </dd>
+              <dt>Process</dt>
+              <dd>
+                Structured a full-funnel audit across competition, consumer
+                perceptions, retail presence and messaging using a simple but
+                rigorous framework.
+              </dd>
+            </dl>
+            <p class="outcome">
+              <span class="outcome-label">Outcome</span>
+              Clear strategic routes — defend, stretch or reposition — with
+              concrete implications for pack, messaging and activation, instead of
+              a generic brand-health report.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <h2>Skills</h2>
+          <p class="section-lead">The mix I bring to a team.</p>
+        </div>
+        <div class="grid skills-grid">
+          <article class="card">
+            <h3>Research</h3>
+            <ul class="skill-list">
+              <li>User interviews &amp; discovery sessions</li>
+              <li>Requirement-gathering workshops</li>
+              <li>Customer &amp; user-journey mapping</li>
+              <li>Brand &amp; market audits</li>
+              <li>Synthesis &amp; insight</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Design</h3>
+            <ul class="skill-list">
+              <li>Problem framing</li>
+              <li>Information architecture</li>
+              <li>Flows &amp; process mapping</li>
+              <li>Workflow &amp; experience design</li>
+              <li>Storytelling &amp; narrative</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Tools</h3>
+            <ul class="skill-list">
+              <li>Figma</li>
+              <li>JIRA &amp; test management</li>
+              <li>Epicor (MRP, BOM/MOM, WIP)</li>
+              <li>Notion &amp; documentation</li>
+              <li>Spreadsheet analysis</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Collaboration</h3>
+            <ul class="skill-list">
+              <li>Stakeholder alignment</li>
+              <li>Requirements facilitation</li>
+              <li>Cross-functional handover</li>
+              <li>Governance &amp; documentation</li>
+              <li>Working in regulated environments</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Contact</h2>
+          <p class="section-lead">If you think I can help, reach out.</p>
+        </div>
+        <div class="card contact-card">
+          <p>
+            I'm based in the UK and open to UX, research and product roles where
+            there's real responsibility and real problems to solve — including
+            within banking and other regulated settings.
+          </p>
+          <p class="contact-detail">
+            Email:
+            <a href="mailto:akshat030600@gmail.com">akshat030600@gmail.com</a>
+          </p>
+          <p class="contact-detail">
+            LinkedIn:
+            <a
+              href="https://www.linkedin.com/in/akshat--saxena/"
+              target="_blank"
+              rel="noopener"
+              >linkedin.com/in/akshat--saxena</a
+            >
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="closing-line">
+      <div class="container">
+        <p>
+          I help teams get to clarity faster — whether it's a product problem, a
+          process problem, or a business problem with no clean owner.
+        </p>
+      </div>
+    </section>
+  </main>
 
   <footer class="footer">
-    <p>© <span id="year"></span> Akshat Saxena. All rights reserved.</p>
+    <div class="container">
+      <p>© <span id="year"></span> Akshat Saxena. All rights reserved.</p>
+    </div>
   </footer>
 
   <script>
