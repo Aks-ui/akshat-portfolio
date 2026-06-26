@@ -178,14 +178,33 @@ img {
 }
 
 .nav-links a {
+  position: relative;
   text-decoration: none;
   color: var(--muted);
   padding: var(--s1) 0;
   transition: color 0.2s ease;
 }
 
+.nav-links a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background: var(--accent);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.2s ease;
+}
+
 .nav-links a:hover {
   color: var(--accent);
+}
+
+.nav-links a:hover::after,
+.nav-links a:focus-visible::after {
+  transform: scaleX(1);
 }
 
 /* =========================================================
@@ -217,6 +236,14 @@ img {
 
 .hero h1 {
   font-size: clamp(2.5rem, 5vw, 3.5rem);
+  margin-bottom: var(--s1);
+}
+
+.hero-role {
+  font-family: var(--font-heading);
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: var(--accent);
   margin-bottom: var(--s3);
 }
 
@@ -579,11 +606,40 @@ img {
 }
 
 /* =========================================================
+   Scroll reveal (progressive enhancement — only with JS)
+   ========================================================= */
+.js .card,
+.js .section-header,
+.js .value-bar p,
+.js .closing-line p {
+  opacity: 0;
+  transform: translateY(16px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+  will-change: opacity, transform;
+}
+
+.js .card.is-visible,
+.js .section-header.is-visible,
+.js .value-bar p.is-visible,
+.js .closing-line p.is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+/* =========================================================
    Motion preferences
    ========================================================= */
 @media (prefers-reduced-motion: reduce) {
   * {
     transition: none !important;
     scroll-behavior: auto !important;
+  }
+
+  .js .card,
+  .js .section-header,
+  .js .value-bar p,
+  .js .closing-line p {
+    opacity: 1;
+    transform: none;
   }
 }
